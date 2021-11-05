@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek-Python</title>
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="py1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a href="login.html">Login</a>
+        </div>
+        <div id="login-btn">
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header>
+    <!------------>
+    <!--Content Section-->
+	<div class="question">
+		<div class="que-container">
+			<h1>Python Access Modifiers</h1>
+		</div>
+	</div>
+	<div class="ans">
+		<div class="ans-container">
+            <div class="inside-ans">
+				<h1>Python: Types of Access Modifiers</h1><br>
+                <p>There are 3 types of access modifiers for a class in Python. These access modifiers define how the members of the class can be accessed. Of course, any member of a class is accessible inside any member function of that same class. Moving ahead to the type of access modifiers, they are:</p><br>
+				<h4>Access Modifier: Public</h4><br>
+				<p>The members declared as Public are accessible from outside the Class through an object of the class.</p><br>
+				<h4>Access Modifier: Protected</h4><br>
+				<p>The members declared as Protected are accessible from outside the class but only in a class derived from it that is in the child or subclass.</p><br>
+				<h4>Access Modifier: Private</h4><br>
+				<p>These members are only accessible from within the class. No outside Access is allowed.</p>
+            </div>
+        </div>
+	</div>
+	<div class="btnsss" style="text-align: center;">
+        <a href="py6.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="py8.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+    <!----------------------------->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</html>
+</body>
