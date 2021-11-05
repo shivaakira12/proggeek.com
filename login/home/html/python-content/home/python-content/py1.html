@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek-Python</title>
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="py1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a href="login.html">Login</a>
+        </div>
+        <div id="login-btn">
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header>
+    <!------------>
+    <!--Content Section-->
+	<div class="question">
+		<div class="que-container">
+			<h1>Java Vs Python</h1>
+		</div>
+	</div>
+	<div class="ans">
+		<div class="ans-container">
+            <div class="inside-ans">
+                <h1>Python</h1>
+                <li>Python is an interpreted language, i.e., it is compiled and executed simultaneously line by line.</li>
+                <li>Python has shorter lines of code as you directly write the code and it gets interpreted.
+                    For eg-
+                    print('Hello, world!')</li>
+                <li>Python is dynamically typed and there are no hardcore rules for semi-colon and braces. It works on inundation.</li>
+                <li>Dynamically typed, no need to define the exact type of variables.</li>
+                <li>Python is relatively slow as it is interpreted language and it determines the type of the variable at run time, which makes it slow.</li>
+                <li>Data science and machine language are made very simple, using Python. Also, it is being used for web development.</li>
+                <li>Python developers are less as compared to Java developers that are why are being paid more. Also, the technicality in the work of python developers is more; that is why they are being paid more.</li><br>
+                <h1>Java</h1>
+                <li>Java is both compiled and interpreted language. The source code is first compiled and converted to bytecode, and afterward, it depends on JIM whether the bytecode will be collected or interpreted</li>
+                <li>The length of the code of java programs is more as compared to that of Python as every program has to be written in a class. For Eg- to write hello world program, the code is-
+                    public class HelloWorld {
+                    public static void main(String[] args) {
+                    System.out.println("Hello, World");
+                    }
+                    }</li>
+                    <li>Java is a statically typed programming language. There are hardcore rules for braces and semi-colon.</li>
+                    <li>Strongly typed, need to define exact types of variables</li>
+                    <li>Java is faster as compared to Python.</li>
+                    <li>It has been in trend for a long time and is vastly used in Android application development, embedded systems, and web applications.</li>
+                    <li>The java pay for beginners is less as compared to python beginners, but the trend is changing and python developers are taking that spot.</li>
+            </div>
+        </div>
+	</div>
+    <div class="btnsss" style="text-align: center;">
+        <a href="pyintern.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="py2.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+    <!----------------------------->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</html>
+</body>

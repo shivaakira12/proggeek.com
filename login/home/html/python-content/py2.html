@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek-Python</title>
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="py1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a href="login.html">Login</a>
+        </div>
+        <div id="login-btn">
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header>
+    <!------------>
+    <!--Content Section-->
+	<div class="question">
+		<div class="que-container">
+			<h1>What is Python ?</h1>
+		</div>
+	</div>
+	<div class="ans">
+		<div class="ans-container">
+            <div class="inside-ans">
+                <h1>What is Python ?</h1><br>
+                <p>Python is a widely-used, interpreted, object-oriented, and high-level programming language with dynamic semantics, used for general-purpose programming. </p><br><p>It was created by <span style="color: crimson;">Guido van Rossum</span>, and first released on February 20, 1991.While you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python’s Flying Circus.One of the amazing features of Python is the fact that it is actually one person’s work.</p> <br><p>Usually, new programming languages are developed and published by large companies employing lots of professionals, and due to copyright rules, it is very hard to name any of the people involved in the project. Python is an exception.Of course, van Rossum did not develop and evolve all the Python components himself. <p></p></br>The speed with which Python has spread around the world is a result of the continuous work of thousands (very often anonymous) programmers, testers, users (many of them aren’t IT specialists) and enthusiasts, but it must be said that the very first idea (the seed from which Python sprouted) came to one head – Guido’s.</p><br>
+               <h1>Why Python ?</h1><br>
+			   <p>What makes Python so special? How does it happen that programmers, young and old, experienced and novice, want to use it? How did it happen that large companies adopted Python and implemented their flagship products using it?</p><br>
+			   <p>There are many reasons – we’ve listed some of them already, but let’s enumerate them again in a more practical manner:</p><br>
+					<li>it’s <b>easy to learn</b> – the time needed to learn Python is shorter than for many other languages; this means that it’s possible to start the actual programming faster;</li>
+					<li>it’s <b>easy to teach</b> – the teaching workload is smaller than that needed by other languages; this means that the teacher can put more emphasis on general (language-independent) programming techniques, not wasting energy on exotic tricks, strange exceptions and incomprehensible rules;</li>
+					<li>it’s <b>easy to use</b> for writing new software – it’s often possible to write code faster when using Python;</li>
+					<li>it’s <b>easy to understand</b> – it’s also often easier to understand someone else’s code faster if it is written in Python;</li>	
+					<li>it’s <b>easy to obtain</b>, install and deploy – Python is free, open and multiplatform; not all languages can boast that.</li><br>
+				<h1>Python Examples</h1>
+				<li><b>Web and Internet development</b> (e.g., Django and Pyramid frameworks, Flask and Bottle micro-frameworks)</li>
+				<li><b>Scientific and numeric computing</b> (e.g., SciPy – a collection of packages for the purposes of mathematics, science, and engineering; Ipython – an interactive shell that features editing and recording of work sessions)</li>
+				<li><b>Education</b>(it’s a brilliant language for teaching programming!)</li>
+				<li><b>Desktop GUIs</b> (e.g., wxWidgets, Kivy, Qt)</li>
+				<li><b>Software Development </b>(build control, management, and testing – Scons, Buildbot, Apache Gump, Roundup, Trac)</li>
+            </div>
+        </div>
+	</div>
+	<div class="btnsss" style="text-align: center;">
+        <a href="py1.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="py3.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+    <!----------------------------->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</html>
+</body>

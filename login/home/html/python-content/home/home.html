@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="home.html" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="home.html" i class="fas fa-home"></i>&nbsp;Home</a>
+            <a href="" i class="fas fa-share"></i>&nbsp;Share</a>
+            <a href="https://play.google.com/store/apps/details?id=com.proggeek" i class="fas fa-smile"></i>&nbsp;  Rate Us</a>
+            <a href="" i class="fas fa-wrench"></i>&nbsp;Updates</a>
+            <a href="about.html" i class="fas fa-heart"></i>&nbsp;About Us</a>
+            <a href="contact.html" i class="fas fa-address-card"></i>&nbsp;Contact Us</a>
+        </nav>
+        <div class="log">
+            <a  href="cause.html" i class="fas fa-hands-helping">&nbsp;Cause</i></a>
+        </div>
+        <div id="login-btn"> 
+            <a i class="fas fa-hands-helping" href="cause.html"></i></a>
+        </div>
+    </header> 
+    <!--Main Heading-->
+    <div class="courses" id="Languages">
+        <h1><span>Code</span> Never Lies,<br><span>Comments</span> Sometimes Do.</h1>
+        <div class="courses-container">
+            <h1>Courses</h1>
+            <div class="inside-courses">
+                <div class="courses-content">
+                    <h4>Python</h4>
+                    <a href="python-content/py.html">
+                        <img src="python-content/images/python.png" alt="">
+                    </a>
+                </div>
+                <div class="courses-content">
+                    <h4>C</h4>
+                    <a href="">
+                        <img src="python-content/images/c.png" alt="">
+                    </a>
+                </div>
+                <div class="courses-content">
+                    <h4>Java</h4>
+                    <a href="">
+                        <img src="python-content/images/java1.png" alt="">
+                    </a>
+                </div>
+                <div class="courses-content">
+                    <h4>Java Script</h4>
+                    <a href="">
+                        <img src="python-content/images/pngegg.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="courses-content">
+                    <h4>Html</h4>
+                    <a href="">
+                        <img src="python-content/images/html4.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="courses-content">
+                    <h4>CSS</h4>
+                    <a href="">
+                        <img src="python-content/images/pngegg(1).png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------->
+    <div class="preparation" id="Programs">
+        <div class="preparation-container">
+            <h1>Preparation</h1>
+            <div class="inside-preparation">
+                <div class="preparation-content">
+                    <a href="">
+                        <img src="python-content/images12/interview.png" alt="" style="width: 100%;">
+                    </a>
+                    <div class="info">
+                        <a href="">Interview Prep</a>
+                    </div>
+                </div>
+                <div class="preparation-content">
+                    <a href="">
+                        <img src="python-content/images/appti.png" alt="" style="width: 100%;">
+                    </a>
+                    <div class="info">
+                        <a href="">Apptitude</a>
+                    </div>
+                </div>
+                <div class="preparation-content">
+                    <a href="">
+                        <img src="python-content/images12/qix.png" alt="" style="width: 100%;">
+                    </a>
+                    <div class="info">
+                        <a href="">More Coding </a>
+                    </div>
+                </div>
+                <div class="preparation-content">
+                    <a href="">
+                        <img src="python-content/images12/github.png" alt="" style="width: 100%;">
+                    </a>
+                    <div class="info">
+                        <a href="">Github Tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------->
+
+    <!---FOOTER SECTION-->
+
+    <div class="footer-section" id="About us">
+    <div class="footer-section">
+        <div class="footer-container">
+            <div class="footer-inside">
+                <div class="footer-content">
+                    <div class="icons">
+                        <a href="https://www.facebook.com/shiva.akira.77"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/shivaakira866/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/c/AkiraOP"> <i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/shivaakira12"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Programs</a></li>
+                        <li><a href="">Languages</a></li>
+                        <li><a href="">Quiz</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; <span>Shiva Akira-PROG GEEK,</span> 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------->
+<script>
+    let menu = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+menu.classList.toggle('fa-times');
+navbar.classList.toggle('active');
+}
+
+    </script>
+</body>
+</html>
+
+
+

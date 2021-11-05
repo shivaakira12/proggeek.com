@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #dde1e7;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left:0; right:0;
+    padding:1rem 9%;
+    z-index: 1000;    
+    background: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73,
+     2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.header .logo{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+.header .logo span{
+    color: rgb(60, 60, 94)
+}
+.header .navbar {
+    margin: 0px 20px;
+}
+.header .navbar a{
+    margin:0 0.4rem;
+    font-size: 1rem;
+    color: rgb(60, 60, 94);
+}
+.log a{
+    background-color: rgb(60, 60, 94);
+    padding: 10px 40px;
+    color: #dde1e7;
+}
+.books-section{
+    margin-top: 140px;
+}
+.books-section h1{
+    text-align: center;
+    font-size: 27px;
+    color: rgb(60, 60, 94);
+}
+.books-section h6{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(111, 111, 138);
+}
+.back{
+    background-color: rgb(60, 60, 94);
+    padding: 10px;
+    margin-top: 40px;
+}
+.back a{
+    background-color: #dde1e7;
+    padding: 11px;
+    margin-left: 30px;
+    color: rgb(60, 60, 94); 
+    font-weight: bolder;
+}
+.books-container{
+    margin-top: 100px;
+    padding: 30px;
+}
+.inside-books{
+   display: flex;
+    grid-template-columns: repeat(4,2fr);
+    align-items: center;
+    padding: 10px;
+}
+.books-content{
+    text-align: center;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+    padding: 20px;  
+    line-height: 2;
+}
+.books-content img{
+    height: 220px;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+    border-radius: 10px;
+}
+.books-content h2{
+    color:rgb(10, 10, 22);
+
+}
+.download{
+    margin-top: 20px;
+}
+.download a{
+    background-color:rgb(60, 60, 94);
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.footer-section
+{
+    background: #dde1e7;
+    line-height: 3;
+    margin-top: 100px;
+    box-shadow: -3px -3px 7px #ffffff73,
+    2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.footer-inside{
+    text-align: center;
+   
+}
+.icons i{
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: -3px -3px 7px #ffffff73,
+    2px 2px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav ul li{
+    padding: 0px 12px;
+}
+.footer-nav ul li a{
+    color: rgb(60, 60, 94);
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+}
+.copyright span{
+    color: rgb(111, 111, 138);
+    font-weight: bolder;
+}
+.footer-nav ul li a:hover{
+    font-weight: normal;
+}
+#login-btn a{
+    display: none;
+    font-size: 2.5rem;
+}
+#menu-btn{
+    font-size: 2rem;
+    display: none;
+}
+
+@media (max-width:858px)
+{
+    .header.logo{
+        text-align: center;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .log a{
+        display: none;
+    }
+    #menu-btn{
+        display: block;
+        font-size: 25px;
+        color: #dde1e7;
+        padding: 7px;
+        background-color: rgb(60, 60, 94);
+    }
+    #menu-btn.fa-times{
+        transform:rotate(180deg);
+    }
+    #login-btn .btn{
+        display: none;
+    }
+
+    #login-btn a{
+        display: block;
+        font-size: 30px;
+        color: rgb(60, 60, 94);
+    }
+    .header .navbar{
+        position: absolute;
+        top:100%; left:-10%; right:20%;
+        background:rgb(60, 60, 94);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        padding-top: 60px;
+        
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .header .navbar a{
+        margin:3rem;
+        letter-spacing: 2px;
+        display: block;
+        font-size: 17px;
+        color: #dde1e7;
+    }
+    .footer-nav ul li{
+        padding: 0px 3px;
+        font-size: 14px;
+    }
+    .books-container{
+      
+        padding: 10px;
+    }
+    .books-section h6{
+       padding: 14px;
+    }
+    .back{
+        width: 98%;
+        padding: 7px;
+        margin-top: 20px;
+    }
+    .back a{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .books-container{
+        margin-top: 50px;
+    }
+    .inside-books{
+        display: grid;
+         grid-template-columns: repeat(2,3fr);
+         padding: 20px;
+         line-height: normal;
+     }
+     .books-content img{
+        height: 180px;
+        box-shadow: inset 2px 2px 5px #babecc,
+        inset -5px -5px 10px #ffffff73;
+        border-radius: 10px;
+    }
+    .books-content{
+        line-height: normal;
+    }
+}

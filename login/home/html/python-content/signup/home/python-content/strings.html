@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of Python</title>
+    <link rel="stylesheet" href="strings.css">
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="home.html" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a  href="login.html">Login</a>
+        </div>
+        <div id="login-btn"> 
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header> 
+    <!------------>
+    <!---Strings section-->
+    <div class="strings-section">
+        <div class="strings-container">
+            <h1>3.Strings</h1>
+            <div class="strings-content">
+                <h3>Strings in Python :</h3>
+                <p>String is a datatype in python.String is a sequence of characters enclosed within the quotes. </p><br>
+                <p>Python string is the collection of the characters surrounded by single quotes, double quotes, or triple quotes. The computer does not understand the characters; internally, it stores manipulated character as the combination of the 0's and 1's.</p>
+                <br>
+                <p>In Python, string is an immutable sequence data type. It is the sequence of Unicode characters wrapped inside single, double, or triple quotes</p><br>
+                <p>The followings are valid string literals in Python. </p>
+                <img src="images12/strings/8.png" alt=""><br>
+                <p>A string literal can be assigned to a variable, as shown below.</p>
+                <img src="images12/strings/9.png" alt="">
+                <h3>String Slicing :</h3>
+                <p>A String in python can be sliced for getting a part of the string.</p>
+                <img src="images12/strings/strings.png" alt=""><br>
+                <p>Consider the Following program example:</p>
+                <img src="images12/strings/10.png" alt="">
+                <p>The following output will be printed:</p><br>
+                <img src="images12/strings/6.png" alt=""><br>
+                <span>The Index in a string starts from 0 to (length-1) in python.We use the following syntax in order to slice the string.</span><br>
+                <span>Let us Consider the following example program:</span><br>
+                <p style="padding: 40px;background-color:rgb(2, 5, 12);color: cornsilk;">S1=name[int start : int end] #basic syntax for<br>name="shiva"<br>S1[0:3]==>It returns the "shi"<br>S1[1:3]==>It returns the "hi"<br></p><br>
+                <h3>Negative Indices:</h3>
+                <p>Negative Indices can be also used to as shown in the figure below,<span style="color:firebrick">-1 </span>corresponds to the <span style="color:firebrick">(length-1).</span></p><br>
+                <p>For example:</p><br>
+                <p style="padding: 40px;background-color:rgb(2, 5, 12);color: cornsilk;">S1=name[int start : int end] #basic syntax for<br>name="shiva"<br>S1[-1]==>It returns the "a"<br>S1[-4:-1]==>It returns the "hiv"<br></p><br>
+                <span>Let us consider the another example:</span><br><br>
+                <img style="height: 319px;" src="images12/strings/7.png" alt="">
+                <h3>String Functions:</h3><br>
+                <p>Python Provides the wide variety of Strings Functions,String Functions used to perform operations on multiple strings.<br>These are the below most useful functions on string functions.</p><br>
+                <img style="height: 230px;"src="images12/strings/methods.png" alt="">
+        </div>
+    </div>
+    <!---------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <cript>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+    }
+    
+        </script>
+    </body>
+    </html>

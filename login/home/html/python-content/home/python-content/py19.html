@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek-Python</title>
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="py1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a href="login.html">Login</a>
+        </div>
+        <div id="login-btn">
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header>
+    <!------------>
+    <!--Content Section-->
+	<div class="question">
+		<div class="que-container">
+			<h1>How will you get the minimum value in a list ?</h1>
+		</div>
+	</div>
+	<div class="ans">
+		<div class="ans-container">
+            <div class="inside-ans">
+					<h3>Example :</h3><br>
+					<p style="border: 1px solid black;padding: 10px;background: black;color: #e5e5e5;">a=[10,3,4,5,7]<br>print(min(a))<br></p><br>
+					<h3>Output :</h3><br>
+					<p style="border: 1px solid black;padding: 10px;background: black;color: #e5e5e5;">3</p>
+            </div>
+        </div>
+	</div>
+	<div class="btnsss" style="text-align: center;">
+        <a href="py18.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="py20.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+    <!----------------------------->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</html>
+</body>
