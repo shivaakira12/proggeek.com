@@ -77,6 +77,7 @@ html{
 }
 .books-container{
     margin-top: 100px;
+    padding: 30px;
 }
 .inside-books{
    display: flex;
@@ -212,6 +213,10 @@ html{
         padding: 0px 3px;
         font-size: 14px;
     }
+    .books-container{
+      
+        padding: 10px;
+    }
     .books-section h6{
        padding: 14px;
     }
@@ -238,5 +243,8 @@ html{
         box-shadow: inset 2px 2px 5px #babecc,
         inset -5px -5px 10px #ffffff73;
         border-radius: 10px;
+    }
+    .books-content{
+        line-height: normal;
     }
 }
