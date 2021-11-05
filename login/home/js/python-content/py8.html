@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek-Python</title>
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="py1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a href="login.html">Login</a>
+        </div>
+        <div id="login-btn">
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header>
+    <!------------>
+    <!--Content Section-->
+	<div class="question">
+		<div class="que-container">
+			<h1>Break,Pass and Continue statements in Python</h1>
+		</div>
+	</div>
+	<div class="ans">
+		<div class="ans-container">
+            <div class="inside-ans">
+				<h1>Break Statement</h1><br>
+                <p>The break statement in Python terminates the current loop and resumes execution at the next statement, just like the traditional break found in C.</p><br>
+				<h1>Continue Statement</h1><br>
+				<p>The continue statement in Python returns the control to the beginning of the while loop. The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop.</p><br>
+				<h1>Pass Statement</h1><br>
+				<p>The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute.</p>
+            </div>
+        </div>
+	</div>
+	<div class="btnsss" style="text-align: center;">
+        <a href="py7.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="py9.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+    <!----------------------------->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</html>
+</body>
