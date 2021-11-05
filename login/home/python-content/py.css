@@ -157,9 +157,9 @@ html{
 
 @media (max-width:858px)
 {
-    .header.logo{
+    .header.logo a{
         text-align: center;
-        margin-left: 30px;
+        margin-left: 40px;
         font-size: 16px;
     }
     .log a{
