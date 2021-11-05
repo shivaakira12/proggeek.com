@@ -51,7 +51,7 @@ html{
     color: #dde1e7;
 }
 .py{
-    margin-top: 170px;
+    margin-top: 150px;
 }
 .py h1{
     text-align: center;
@@ -62,7 +62,7 @@ html{
 }
 .py-container{
    
-    margin-top: 40px;
+    margin-top:5px;
     padding: 50px 40px;
     box-shadow: -3px -3px 7px #ffffff73,
                             2px 2px 5px rgba(191, 197, 206, 0.288);
@@ -210,7 +210,7 @@ html{
         font-size: 30px;
     }
     .py-container{
-        margin-top: 40px;
+        margin-top: 10px;
         padding: 40px 10px;
         box-shadow: -3px -3px 7px #ffffff73,
         2px 2px 5px rgba(191, 197, 206, 0.288);
