@@ -81,11 +81,8 @@ html{
 .inside-books{
    display: flex;
     grid-template-columns: repeat(4,2fr);
-    gap: 0px;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-   
+    padding: 10px;
 }
 .books-content{
     text-align: center;
@@ -215,5 +212,31 @@ html{
         padding: 0px 3px;
         font-size: 14px;
     }
-
+    .books-section h6{
+       padding: 14px;
+    }
+    .back{
+        width: 98%;
+        padding: 7px;
+        margin-top: 20px;
+    }
+    .back a{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .books-container{
+        margin-top: 50px;
+    }
+    .inside-books{
+        display: grid;
+         grid-template-columns: repeat(2,3fr);
+         padding: 20px;
+         line-height: normal;
+     }
+     .books-content img{
+        height: 180px;
+        box-shadow: inset 2px 2px 5px #babecc,
+        inset -5px -5px 10px #ffffff73;
+        border-radius: 10px;
+    }
 }
