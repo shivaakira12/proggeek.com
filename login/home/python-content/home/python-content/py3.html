@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog Geek-Python</title>
+    <link rel="shortcut icon" href="images12/variables/titlelogo.png" type="image/png">
+    <link rel="stylesheet" href="py1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Prog <span>Geek</span></a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="#Languages">Languages</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Quizes">Quizes</a>
+            <a href="#About us">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="log">
+            <a href="login.html">Login</a>
+        </div>
+        <div id="login-btn">
+            <a i class="far fa-user" href="login.html"></i></a>
+        </div>
+    </header>
+    <!------------>
+    <!--Content Section-->
+	<div class="question">
+		<div class="que-container">
+			<h1>Key Features of Python</h1>
+		</div>
+	</div>
+	<div class="ans">
+		<div class="ans-container">
+            <div class="inside-ans">
+                <h1>Python Features</h1><br>	
+                <p>Let’s discuss some important features of Python Programming Language:</p><br>
+               <h3>1.Easy Language</h3><br>
+			   <p>Python is an easy language. It is easy to read, write, learn and understand.</p><br>
+					<li>Python has a <b>smooth learning curve.</b> It is easy to learn.</li>
+					<li>Python has a <b>simple syntax</b>	easy to understand.</li>
+					<li>Since it’s <b>easy to understand</b>, you can easily read and understand someone else’s code.</li>
+					<li>Python is also <b>easy to write</b> because of its simple syntax.</li>	<br>
+				<h3>2.Readable</h3><br>
+				<p>The Python language is designed to make developers life easy. Reading a Python code is like reading an English sentence. This is one of the key reason that makes Python best for beginners.</p><br>
+				<p>Python uses <b>indentation</b> instead of <b>curly braces</b>, unlike other programming languages. This makes the code look clean and easier to understand.</p><br>
+				<h3>3. Interpreted Language</h3><br>
+				<p>Python is an interpreted language. It comes with the <b>IDLE (Interactive Development Environment)</b>. This is an interpreter and follows the <b>REPL structure (Read-Evaluate-Print-Loop)</b>. It executes and displays the output of one line at a time.</p><br>
+				<p>So it displays errors while you’re running a line and displays the entire stack trace for the error.</p><br>
+				<h3>4.Object-Oriented</h3><br>
+				<p>Python is object-oriented but supports both functional and object-oriented programming. Everything in Python is an object.</p><br>
+				<p>It has the <b>OOP (Object-oriented programming)</b> concepts like inheritance and polymorphism.</p><br>
+				<h3>5.Open Source</h3><br>
+				<p>Python is open-source and the community is always contributing to it to improve it. It is free and its source code is freely available to the public. You can download Python from the official Python Website.</p><br>
+            </div>
+        </div>
+	</div>
+	<div class="btnsss" style="text-align: center;">
+        <a href="py2.html"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="py4.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+    <!----------------------------->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</html>
+</body>

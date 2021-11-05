@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #dde1e7;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.inside-program
+{
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.inside-program p{
+    color: #dde1e7;
+}
+.program-holder{
+    margin-top: 100px;
+    line-height: 3;
+    padding: 5px;
+}
+.program-holder span{
+    font-size: 18px;
+    color: black;
+    margin-left: 5px;
+}
+.btnss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.btnss a{
+    background-color: black;
+    padding: 10px 10px;
+    color: #dde1e7;
+    font-size: 20px;
+}
+
+@media (max-width:858px)
+{
+    .inside-program
+    {
+        background-color: darkcyan;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .btnss{
+        margin-top: -100px;
+    }
+    .program-holder img{
+        margin-left: 25px;
+    }
+}
