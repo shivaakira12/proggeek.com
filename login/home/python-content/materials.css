@@ -50,48 +50,69 @@ html{
     padding: 10px 40px;
     color: #dde1e7;
 }
-.py{
-    margin-top: 170px;
+.books-section{
+    margin-top: 140px;
 }
-.py h1{
+.books-section h1{
     text-align: center;
-    font-size: 40px;
-}
-.py span{
+    font-size: 27px;
     color: rgb(60, 60, 94);
 }
-.py-container{
+.books-section h6{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(111, 111, 138);
+}
+.back{
+    background-color: rgb(60, 60, 94);
+    padding: 10px;
+    margin-top: 40px;
+}
+.back a{
+    background-color: #dde1e7;
+    padding: 11px;
+    margin-left: 30px;
+    color: rgb(60, 60, 94); 
+    font-weight: bolder;
+}
+.books-container{
+    margin-top: 100px;
+}
+.inside-books{
+   display: flex;
+    grid-template-columns: repeat(4,2fr);
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
    
-    margin-top: 40px;
-    padding: 50px 40px;
-    box-shadow: -3px -3px 7px #ffffff73,
-                            2px 2px 5px rgba(191, 197, 206, 0.288);
 }
-.py-container h1{
-    font-size: 28px;
-    color: rgb(60, 60, 94);
-}
-.inside-py{
-    padding: 40px;
-    display: grid;
-    margin-top: 40px;
-    grid-gap:  10px;
-    grid-template-columns:repeat(5,3fr) ;
-}
-.py-content img{
-    height:  180px;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: -3px -3px 7px #ffffff73,
-    2px 2px 5px rgba(94, 104, 121, 0.288);
-}
-.py-content h4{
-    position: absolute;
-    margin-top:  200px;
-    margin-left: 55px;
+.books-content{
     text-align: center;
-    font-size: 19px;
-    color: rgb(60, 60, 94);
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+    padding: 20px;  
+    line-height: 2;
+}
+.books-content img{
+    height: 220px;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+    border-radius: 10px;
+}
+.books-content h2{
+    color:rgb(10, 10, 22);
+
+}
+.download{
+    margin-top: 20px;
+}
+.download a{
+    background-color:rgb(60, 60, 94);
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 13px;
 }
 .footer-section
 {
@@ -190,43 +211,9 @@ html{
         font-size: 17px;
         color: #dde1e7;
     }
-    .py h1{
-        font-size: 27px;
-    }
-    .py h1{
-        text-align: center;
-        font-size: 30px;
-    }
-    .py-container{
-        margin-top: 40px;
-        padding: 40px 10px;
-        box-shadow: -3px -3px 7px #ffffff73,
-        2px 2px 5px rgba(191, 197, 206, 0.288);
-    }
-    .inside-py{
-        padding: 0px 0px;
-        display: grid;
-        margin-top:40px ;
-        grid-gap: 40px;
-        grid-template-columns:repeat(2,2fr) ;
-    }
-    .py-content img{
-        height: 130px;
-        padding: 30px 30px;
-        box-shadow: -3px -3px 7px #ffffff73,
-        2px 2px 5px rgba(94, 104, 121, 0.288);
-    }
-    .py-container h1{
-        font-size: 24px;
-    }
-    .py-content h4{
-        position: absolute;
-        margin-left: 60px;
-        font-size: 16px;
-        margin-top: 150px;
-    }
     .footer-nav ul li{
         padding: 0px 3px;
         font-size: 14px;
     }
+
 }
