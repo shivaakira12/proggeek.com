@@ -99,7 +99,7 @@ html{
     background: rgb(60, 60, 94);
 }
 .back a{
-    background-color:white;
+    background-color:#dde1e7;
     padding: 11px;
     margin-left: 30px;
     color: rgb(60, 60, 94); 
@@ -242,14 +242,11 @@ html{
         font-size: 14px;
     }
     .back{
-        background: none;
         padding: 7px;
         margin-top: 20px;
     }
     .back a{
-        background: rgb(60, 60, 94);
-        font-size:25px;
-        color: #dde1e7;
+        font-size:22px;
         margin-left: 10px;
     }
 }
