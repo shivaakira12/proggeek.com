@@ -196,4 +196,15 @@ html{
         font-size: 20px;
         margin-left: 10px;
     }
+	.inside-message{
+		line-height: normal;
+		padding: 10px;
+	}
+	.inside-message h1{
+		font-size: 20px;
+	}
+	.inside-message p{
+		font-size: 12px;
+		margin-top: 30px;
+	}
 }
