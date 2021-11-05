@@ -164,10 +164,10 @@ html{
 
 @media (max-width:858px)
 {
-    .header.logo{
+    .header .logo{
         text-align: center;
         margin-left: 30px;
-        font-size: 16px;
+        font-size: 23px;
     }
     .log a{
         display: none;
