@@ -11,33 +11,42 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #dde1e7;
+    background:#000;
+}
+.akira p{
+    color: rgb(142, 142, 180);
+    letter-spacing: 10px;
+    font-size: 15px;
 }
 .main-heading {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
+}
+.main-heading p{
+    color: rgb(142, 142, 180);
 }
 .inside-heading h1{
     font-size: 50px;
+    color: #e5e5e5;
 }
-.inside-heading span{
-    font-size: 70px;
-    color: rgb(22, 22, 68);
-}
+
 .main-heading img{
     display: none;
 }
 .letsstarted{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .letsstarted a{
+    text-align: center;
     background: rgb(22, 22, 68);
-    position: absolute;
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: #e5e5e5;
 }
 @media(max-width:480px){
+    body{
+        background: #dde1e7;
+    }
 
     .main-heading {
         height: 100%;
@@ -47,24 +56,24 @@ body{
     .inside-heading{
         margin-top: 150px;
         padding: 10px 0px;
-        line-height: 2;
+        line-height: ;
+    }
+    .akira p{
+        color: rgb(56, 56, 112);
+        letter-spacing: 5px;
+        font-size: 15px;
     }
     .inside-heading h1{
-        font-size: 30px;
-       color:black;
-    }
-    .inside-heading span{
+        margin-top: 10px;
         font-size: 50px;
-        color:rgb(22, 22, 68);
+        color: rgb(22, 22, 68);
     }
-    .inside-heading p{
-        color: black;
-        font-weight: bolder;
+    .pa p{
+        padding: 20px;
+        color: rgb(22, 22, 68)  ;
     }
     .letsstarted{
-        margin-top: 30px;
-        text-align: justify;
-        margin-left: 180px;
+        margin-top: 20px;
     }
     .letsstarted a{
         background: rgb(22, 22, 68);
