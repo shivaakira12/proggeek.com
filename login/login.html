@@ -9,6 +9,8 @@
 	function validate(){
 		var username =document.getElementById("uname");
 		var password =document.getElementById("pass");
+        var cpassword =document.getElementById("cpass");
+
 		if(username.value.trim()==""){
             uname.style.border="2px solid red";
             document.getElementById("label").style.visibility="visible";
@@ -23,6 +25,11 @@
           alert("Password Must be More than 5 letters")
             return false;
 		}
+        else if(password.value!=cpassword.value){
+            cpass.style.border="2px solid red";
+            document.getElementById("label4").style.visibility="visible";
+            return false;
+        }
         else{
             return true;
         }
@@ -40,17 +47,21 @@
             </div>
             <form action="home/home.html" onsubmit="return validate()">
                 <div class="form-content">
-                  
-                    <span class="fa fa-envelope"></span>
-                  
-                    <input type="text" placeholder="Name" id="uname">
+                    <span class="fa fa-user"></span>
+                    <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Name" id="uname">
                     <label id="label" style="visibility: hidden;color: red;font-size: 6px;"></label>
                 </div>
                 <div class="form-content">
                     <span class="fa fa-lock"></span>
-                    <input type="password" placeholder="Password" id="pass">
+                    <input type="password" placeholder="&nbsp;&nbsp;&nbsp;Password" id="pass">
                     <label id="label1" style="visibility: hidden;color:red;font-size:6px;"></label>
                     <label id="label3" style="visibility: hidden;color:red;font-size: 6px;"></label>
+                </div>
+                <div class="form-content">
+                    <span class="fa fa-lock-open"></span>
+                    <input type="password" placeholder="&nbsp;&nbsp;&nbsp;Confirm Password" id="cpass">
+                    <label id="label4" style="visibility: hidden;color:red;font-size:6px;"></label>
+                    <label id="label4" style="visibility: hidden;color:black;font-size: 6px;"></label>
                 </div>
                <button type="submit">Submit</button>
         </div>
