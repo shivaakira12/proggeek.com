@@ -55,7 +55,7 @@ html{
     box-shadow: -3px -3px 7px #ffffff73,                 
     2px 2px 5px rgba(94, 104, 121, 0.288);
 }
-.loginx{
+button{
     box-shadow: 2px 2px 5px #babecc,
     -5px -5px 10px #ffffff73;
     height: 50px;
@@ -71,7 +71,7 @@ html{
   cursor: pointer;
   border-radius: 25px;
 }
-.loginx a{
+button{
     margin: 25px 0 0 0;
      font-size: 18px;
      color: #000;
