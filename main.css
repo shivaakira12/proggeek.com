@@ -11,23 +11,29 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background:#000;
+    background: #dde1e7;
+}
+.pa h6{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: normal;
 }
 .akira p{
-    color: rgb(142, 142, 180);
-    letter-spacing: 10px;
+    color: rgb(22, 22, 68);
+    letter-spacing: 16px;
     font-size: 15px;
 }
 .main-heading {
     text-align: center;
     margin-top: 150px;
 }
-.main-heading p{
-    color: rgb(142, 142, 180);
+.pa p{
+    visibility: hidden;
 }
 .inside-heading h1{
-    font-size: 50px;
-    color: #e5e5e5;
+    font-size: 100px;
+    letter-spacing: 10px;
+    color:rgb(22, 22, 68);
 }
 
 .main-heading img{
@@ -38,17 +44,20 @@ body{
     margin-top: 40px;
 }
 .letsstarted a{
+    font-weight: bolder;
+    color: rgb(22, 22, 68);
     text-align: center;
     box-shadow: -3px -3px 7px #ffffff73,                 
     2px 2px 5px rgba(94, 104, 121, 0.288);
     padding: 10px 10px;
-    color: rgb(142, 142, 180);
 }
 @media(max-width:480px){
     body{
         background: #E0E4E7;
     }
-
+    .pa h6{
+        visibility: hidden;
+    }
     .main-heading {
         height: 100%;
         margin-top: 150px;
@@ -69,11 +78,12 @@ body{
         color: rgb(22, 22, 68);
     }
     .pa p{
+        visibility: visible;
         padding: 20px;
         color: rgb(22, 22, 68)  ;
     }
     .letsstarted{
-        margin-top: 20px;
+        margin-top: 10px;
         
     }
     .letsstarted a{
