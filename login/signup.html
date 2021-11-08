@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup</title>
 	<link rel="stylesheet" href="signup.css">
 <script type="text/javascript">
 	function validate(){
 		var username =document.getElementById("uname");
 		var password =document.getElementById("pass");
         var cpassword =document.getElementById("cpass");
+		var cemail =document.getElementById("epass");
 
 		if(username.value.trim()==""){
             uname.style.border="2px solid red";
@@ -19,6 +20,11 @@
 		}
         else if(password.value.trim()==""){
             pass.style.border="2px solid red";
+            document.getElementById("label1").style.visibility="visible";
+            return false;
+        }
+		else if(cemail.value.trim()==""){
+            epass.style.border="2px solid red";
             document.getElementById("label1").style.visibility="visible";
             return false;
         }
@@ -52,12 +58,19 @@
                     <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Name" id="uname">
                     <label id="label" style="visibility: hidden;color: red;font-size: 6px;"></label>
                 </div>
+				<div class="form-content">
+                    <span class="fa fa-lock"></span>
+                    <input type="email" placeholder="&nbsp;&nbsp;&nbsp;email" id="epass">
+                    <label id="label1" style="visibility: hidden;color:red;font-size:6px;"></label>
+                    <label id="label4" style="visibility: hidden;color:red;font-size: 6px;"></label>
+                </div>
                 <div class="form-content">
                     <span class="fa fa-lock"></span>
                     <input type="password" placeholder="&nbsp;&nbsp;&nbsp;Password" id="pass">
                     <label id="label1" style="visibility: hidden;color:red;font-size:6px;"></label>
                     <label id="label3" style="visibility: hidden;color:red;font-size: 6px;"></label>
                 </div>
+
                 <div class="form-content">
                     <span class="fa fa-lock-open"></span>
                     <input type="password" placeholder="&nbsp;&nbsp;&nbsp;Confirm Password" id="cpass">

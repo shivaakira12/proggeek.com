@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #dde1e7;
+    display: grid;
+     place-items: center;
+    text-align: center;
+}
+html{
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.login-container{
+    width: 430px;
+    height: 100%;
+    background: #dde1e7;
+    margin-top:30px;
+    border-radius: 10px;
+    padding:30px 30px;
+        box-shadow: -3px -3px 7px #ffffff73,                 
+        2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.inside-login{
+    height: 150%;
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+}   
+.inside-login input{
+    margin-top: 30px;
+    background: #dde1e7;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+}
+.form-content span{
+    position: absolute;
+    width: 40px;
+    line-height: 110px;
+    color: #595959;
+}
+.avatar img{
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff73,                 
+    2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+button{
+    box-shadow: 2px 2px 5px #babecc,
+    -5px -5px 10px #ffffff73;
+    height: 50px;
+  margin-top: 30px;
+  width: 50%;
+  height: 50px;
+  margin-bottom: 50px;
+  color: rgb(22, 22, 68);
+  font-size: 18px;
+  font-weight: 600;
+  background: #dde1e7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
