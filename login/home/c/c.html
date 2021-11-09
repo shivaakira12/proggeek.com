@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	
 	<link rel="stylesheet" href="c.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
@@ -24,7 +25,7 @@
 			<div class="log">
 				<a  href="cause.html" i class="fas fa-hands-helping">&nbsp;Cause</i></a>
 			</div>
-			<div id="login-btn"> 
+			<div id="login-btn" onclick="myf()"> 
 				<a i class="fas fa-hands-helping" href="cause.html"></i></a>
 			</div>
 		</header> 
@@ -38,6 +39,7 @@
 			<div class="message-content">
 				<div class="inside-message">
 					<h1>Sorry for the Inconvience<br> we will be Adding the <br><span style="font-size: 30px;color: teal;">C Programming Content</span> in Next Update until <br>Stay Tuned To PROGGEEK.</h1>
+					<h3 id="demo"></h3>
 					<p style="font-size: 16px;color: teal;">Explore the Python Content Below</p>
 					<img src="a.png" alt="" style="height: 50px;margin-top: 40px;">
 					<div class="n">
@@ -62,7 +64,12 @@
 						</div>
 						<div class="footer-nav">
 							<ul>
-								<li><a href="">Home</a></li>
+								<li><a href="">Home</a></li>		// function myf(){
+				// 	var t = new Date();
+				// 	t.setHours(5);
+				// 	document.getElementById("demo").innerHTML=t;
+			
+				// }
 								<li><a href="">Programs</a></li>
 								<li><a href="">Languages</a></li>
 								<li><a href="">Quiz</a></li>
@@ -87,5 +94,21 @@
 		}
 		
 			</script>
+			<script type="text/javascript">
+				// function myf(){
+				// 	var t = new Date();
+				// 	t.setHours(5);
+				// 	document.getElementById("demo").innerHTML=t;
+			
+				// }
+				(function(){
+					setInterval(()=>{
+						var t=new Date().toLocaleTimeString()
+						document.getElementById("demo").innerHTML=t;
+						document.getElementById('demo').style.color="red"
+						document.getElementById('demo').style.fontSize="40px"
+					},1000)
+				})();
+				</script>
 </body>
 </html>
