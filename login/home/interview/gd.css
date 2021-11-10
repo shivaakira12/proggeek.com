@@ -17,7 +17,7 @@ html{
     scroll-behavior: smooth;
 
 }
-.header{
+ .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,30 +45,47 @@ html{
     font-size: 0.8rem;
     color: rgb(60, 60, 94);
 }
-li{
-	padding: 10px;
-}
 .log a{
     background-color: rgb(60, 60, 94);
     padding: 10px 40px;
     color: #dde1e7;
 }
-.question{
-	margin-top: 80px;
-	text-align: center;
-	background-color: black;
-	color: #dde1e7;
-	padding: 30px;
+.content-section{
+    margin-top:140px;
+    text-align: center;
+    color: rgb(60, 60, 94);
+    font-size: 15px;
+    display: block;
 }
-.answer-container{
-	padding: 100px;
-	margin: 30px;
-	margin-top: 40px;
-	box-shadow: inset 2px 2px 5px #babecc,
-	inset -5px -5px 10px #ffffff73;
+.inside-content{
+    height: 50%;
+    width: 100%;
+    display: block;
+    padding: 10px 40px;
+    margin-top: 40px;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73,
+    2px 2px 5px rgba(94, 104, 121, 0.288);
 }
-.answer-container p{
-	line-height: 2;
+.inside-content h3{
+    font-size: 30px;
+    color: rgb(60, 60, 94);
+}
+.info-content{
+    margin-top: 18px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: justify;
+	box-shadow: -3px -3px 7px #ffffff73,
+	2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.info-content a{
+    font-size: 19px;
+    color: blueviolet;
+}
+.info-content img{
+    height: 15px;
 }
 .back{
     margin-top: 50px;
@@ -95,12 +112,13 @@ li{
     font-size: 40px;
     color: rgb(60, 60, 94);
 }
+
 @media (max-width:858px)
 {
-    .header .logo{
+	.header .logo{
         text-align: center;
         margin-left: 30px;
-        font-size: 23px;
+        font-size: 16px;    
     }
     .log a{
         display: none;
@@ -118,7 +136,6 @@ li{
     #login-btn .btn{
         display: none;
     }
-
     #login-btn a{
         display: block;
         font-size: 30px;
@@ -130,29 +147,37 @@ li{
         background:rgb(60, 60, 94);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         padding-top: 60px;
-        
     }
     .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     .header .navbar a{
         margin:3rem;
-        letter-spacing: 2px;
         display: block;
         font-size: 17px;
         color: #dde1e7;
-
     }
-	.answer-container{
-		padding: 10px;
-		margin: 15px;
-	}
-	.question-container h1{
-		font-size: 25px;
-	}
-	.question{
-		margin-top: 70px;
-		width: 98.6%;
-		padding: 30px;
-	}
+    .inside-content{
+        text-align: center;
+        margin-left:0px;
+        width: 410px;
+        height: 400px;
+        padding: 0px 9px;
+    }
+    .info-content a{
+        font-size: 16px;
+        color: rgb(60, 60, 94);
+        font-weight: normal;
+    }
+    .back{
+        margin-top: 60px;
+    }
+    .btnsss{
+        margin-bottom: 50px;
+        margin-top: 150px;
+    }
+    .btnsss i{
+        font-size: 40px;
+        color: rgb(60, 60, 94);
+    }
 }
