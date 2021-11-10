@@ -142,9 +142,10 @@ html{
     }
 	.answer-container{
 		padding: 10px;
+		margin: 15px;
 	}
 	.question-container h1{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.question{
 		margin-top: 70px;
