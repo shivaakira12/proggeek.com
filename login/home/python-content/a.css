@@ -149,6 +149,7 @@ html{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     .header .navbar a{
+        border: none;
         margin:3rem;
         display: block;
         font-size: 17px;
@@ -176,5 +177,136 @@ html{
     .btnsss i{
         font-size: 40px;
         color:rgb(60, 60, 94);
+    }
+}
+@media (max-width:768px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 90px;
+        font-size: 40px;    
+    }
+  
+    .header .navbar{
+        position: absolute;
+        top:100%; left:-1%; right:-2%;
+        background:rgb(60, 60, 94);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        padding-top: 0px;
+    }
+    
+    .inside-content{
+        text-align: center;
+        margin:30px;
+        width: 710px;
+        height: 700px;
+        padding: 0px 9px;
+    }
+}
+@media (max-width:601px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 70px;
+        font-size: 35px;    
+    }
+  
+    .header .navbar{
+        position: absolute;
+        top:100%; left:-1%; right:-2%;
+        background:rgb(60, 60, 94);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        padding-top: 0px;
+    }
+    
+    .inside-content{
+        text-align: center;
+        margin:30px;
+        width: 530px;
+        height: 750px;
+        padding: 0px 9px;
+    }
+}
+@media (max-width:540px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 60px;
+        font-size: 35px;    
+    }
+    .header .navbar{
+        top:100%; left:-3%; right:-2%;
+    }
+    .inside-content{
+      
+        margin:20px;
+        width: 500px;
+        height: 750px;
+        
+    }
+}
+@media (max-width:480px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 50 px;
+        font-size: 35px;    
+    }
+    .header .navbar{
+        top:100%; left:-3%; right:-2%;
+    }
+    .inside-content{
+        margin:13px;
+        width: 450px;
+        height: 750px;
+    }
+}
+@media (max-width:414px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 35px;
+        font-size: 30px;    
+    }
+    .header .navbar{
+        top:100%; left:-3%; right:-2%;
+    }
+    .inside-content{
+        margin:5px;
+        width: 400px;
+        height: 750px;
+    }
+}
+@media (max-width:380px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 35px;
+        font-size: 25px;    
+    }
+    .header .navbar{
+        top:100%; left:-3%; right:-2%;
+    }
+    .inside-content{
+        margin:5px;
+        width: 360px;
+        height: 750px;
+    }
+}
+
+@media (max-width:360px)
+{
+    .header .logo{
+        text-align: center;
+        margin-left: 35px;
+        font-size: 25px;    
+    }
+    .header .navbar{
+        top:100%; left:-3%; right:-2%;
+    }
+    .inside-content{
+        margin:5px;
+        width: 340px;
+        height: 750px;
     }
 }
