@@ -107,6 +107,10 @@ html{
     color: rgb(60, 60, 94);
     font-weight: bold;
 }
+.courses-content .info a{
+    color: rgb(60, 60, 94);
+    font-weight: bold;
+}
 .preparation-content{
     padding: 10px 0px;
 }
@@ -212,7 +216,6 @@ html{
         display: block;
         font-size: 17px;
         color: #dde1e7;
-
     }
     .courses {
         margin-top: 150px;

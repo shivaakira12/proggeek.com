@@ -305,6 +305,7 @@ html{
         font-size: 40px;
     }
     .py-container{
+
         margin-top: 40px;
         padding: 40px 40px;
         box-shadow: -3px -3px 7px #ffffff73,
@@ -313,7 +314,7 @@ html{
     .inside-py{
         padding: 0px 0px;
         display: grid;
-        margin: 20px;
+        margin: 10px;
         grid-gap: 40px;
         grid-template-columns:repeat(3,2fr) ;
     }
@@ -331,6 +332,107 @@ html{
         margin-left: 60px;
         font-size: 16px;
         margin-top: 150px;
+    }
+    .footer-nav ul li{
+        padding: 0px 3px;
+        font-size: 14px;
+    }
+    .back{
+        padding: 7px;
+        margin-top: 20px;
+    }
+    .back a{
+        font-size:22px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:601px)
+{
+    .header .logo{
+    text-align: center;
+    margin-left: 80px;
+    font-size: 38px;
+}
+    .log a{
+        display: none;
+    }
+    #menu-btn{
+        display: block;
+        font-size: 25px;
+        color: #dde1e7;
+        padding: 7px;
+        background-color: rgb(60, 60, 94);
+    }
+    #menu-btn.fa-times{
+        transform:rotate(180deg);
+    }
+    #login-btn .btn{
+        display: none;
+    }
+
+    #login-btn a{
+        display: block;
+        font-size: 30px;
+        color: rgb(60, 60, 94);
+    }
+    .header .navbar{
+        position: absolute;
+        top:100%; left:-4%; right:-3%;
+        background:rgb(60, 60, 94);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        padding-top: 0px;
+        
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .header .navbar a{
+        margin:3rem;
+        letter-spacing: 2px;
+        display: block;
+        font-size: 17px;
+        color: #dde1e7;
+    }
+    .py h1{
+        font-size: 25px;
+    }
+    .py h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .py-container{
+
+        margin-top: 40px;
+        padding: 40px 40px;
+        box-shadow: -3px -3px 7px #ffffff73,
+        2px 2px 5px rgba(191, 197, 206, 0.288);
+    }
+    .inside-py{
+        padding: 0px 0px;
+        display: grid;
+        margin: 0px;
+        grid-gap: 40px;
+        grid-template-columns:repeat(3,2fr) ;
+    }
+    .py-content{
+        margin-top: 40px;
+    }
+    .py-content img
+    {
+        
+        height: 100%;
+        padding: 30px 30px;
+        box-shadow: -3px -3px 7px #ffffff73,
+        2px 2px 5px rgba(94, 104, 121, 0.288);
+    }
+    .py-container h1{
+        font-size: 30px;
+    }
+    .py-content h4{
+        position: absolute;
+        margin-left: 30px;
+        font-size: 16px;
+        margin-top: 140px;
     }
     .footer-nav ul li{
         padding: 0px 3px;
