@@ -519,3 +519,71 @@ html{
         margin-top: 150px;
     }
 }
+@media (max-width:380px)
+{
+    .header .logo{
+    text-align: center;
+    margin-left: 35px;
+    font-size: 26px;
+}
+    .py-container h1{
+        font-size: 25px;
+    }
+    .py-content h4{
+        position: absolute;
+        margin-left: 0px;
+        font-size: 16px;
+        margin-top: 140px;
+    }
+ 
+}
+@media (max-width:360px)
+{
+    .header .logo{
+    text-align: center;
+    margin-left: 24px;
+    font-size: 25px;
+}
+    .header .navbar{
+        top:100%; left:-6%; right:-4%;
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .header .navbar a{
+        margin:3rem;
+        letter-spacing: 2px;
+        display: block;
+        font-size: 17px;
+        color: #dde1e7;
+    }
+
+    .py h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .py-container{
+
+        margin-top: 40px;
+        padding: 40px 40px;
+        box-shadow: -3px -3px 7px #ffffff73,
+        2px 2px 5px rgba(191, 197, 206, 0.288);
+    }
+    .inside-py{
+        
+        margin: -10px;
+        grid-gap: 10px;
+        grid-template-columns:repeat(2,2fr) ;
+    }
+    .py-content img
+    {
+        height: 100%;
+    }
+    .py-container h1{
+        font-size: 30px;
+    }
+    .py-content h4{
+        margin-left: 30px;
+        margin-top: 130px;
+    }
+}
